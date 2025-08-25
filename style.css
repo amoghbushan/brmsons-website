@@ -1,0 +1,80 @@
+body {
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+  background: #fdfaf6;
+  color: #333;
+}
+
+header {
+  background: #600000;
+  padding: 1rem;
+}
+
+header .logo img {
+  height: 50px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  background: #8b0000;
+  color: #fff;
+  text-align: center;
+  padding: 5rem 1rem;
+}
+
+.brands {
+  padding: 2rem;
+  text-align: center;
+}
+
+.brand-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.brand-logos img {
+  max-width: 120px;
+  height: auto;
+}
+
+footer {
+  background: #600000;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+.silkmark img {
+  max-height: 50px;
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25d366;
+  color: white;
+  border-radius: 50%;
+  font-size: 2rem;
+  padding: 10px;
+  text-decoration: none;
+}
